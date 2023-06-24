@@ -9,7 +9,7 @@ body{
     
 }
 .icono{
-    border: solid 3px darkslategray;
+    border: 3px solid darkslategray;
     margin: 10px;
 }
 .arbol{
@@ -48,8 +48,14 @@ h4 {
     font-size: large;
     margin: 50px;
 }
-#header_index nav ul li a{
-    color: slateblue;
+.content{
+    font-style: italic;
+    font-size: large;
+    color: navajowhite;
+}
+
+.cambi2 ul li a{
+    color: bisque;
     text-decoration: none;
     margin: 30px;
 }
@@ -60,6 +66,9 @@ a:hover{
     color: firebrick;
     text-decoration: double;
 }
+.cambi1 {
+    background-color: rgb(233, 226, 213);
+} 
 .parrafo{
     color: navy;
     font-family: cursive;
@@ -211,7 +220,7 @@ margin: 30px;
     margin: 40px;
 }
 
-/*la clase contenedor es del acordeon*/
+
 
 .acordeon{
     display: flex;
