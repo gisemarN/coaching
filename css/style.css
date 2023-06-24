@@ -281,7 +281,18 @@ margin: 30px;
 .siete{
     grid-area: lapiz;
 }
-
+.color{
+    color: cadetblue;
+    font-style: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color1{
+    text-decoration: none;
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px wavy teal;
+    padding: 10px;   
+}
 
 @media (max-width: 576px){
     .cambi2 ul li{
