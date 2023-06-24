@@ -14,7 +14,7 @@ body{
 }
 .arbol{
     
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 50px;
     width: 90vw;
@@ -316,4 +316,8 @@ margin: 30px;
         align-items: flex-end;
        
     }
+.cards{
+    display: flex;
+    flex-direction: column;
+}
 } 
