@@ -14,8 +14,8 @@ body{
 }
 .arbol{
     
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 50px;
     width: 90vw;
 }
