@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #header_index{
     .cambi2{ 
         ul{
@@ -16,16 +20,33 @@
            }
        }
    
-    .cambi1{
+     .cambi1{
         background-color: rgb(233, 226, 213);           
        }
-    @media (max-width: 576px){
-        display: inline-flex;
-        flex-direction: row;
-        align-items: flex-end;
+    
+     @media (max-width: 576px){
+         @include ordenar(flex, center, wrap)
        }
-   }
-/*asi se llaman las ordenes*/
+   };
+
+
+.cajacoach{
+    background-color: $color 1;
+    @include ordenar(inline-flex, row, flex-end);
+    @include margen(30px, 30px, 0, $color 1);
+
+.body{
+    background-image: url(../img.html/astro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    .icono{
+        border: 3px solid darkslategray;
+        margin: 10px;
+    }
+
+
    .class{
     color: nth($color , 1);
     padding: nth($size , 1);

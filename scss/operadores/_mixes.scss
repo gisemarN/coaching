@@ -1,0 +1,13 @@
+@mixin ordenar ($cod, $jcont, $flexw){
+    display: $cod;
+    justify-content: $jcont;
+    flex-wrap: $flexw;
+};
+@mixin margen ($mgn, $pdd, $bod, $bgc){
+        margin: $mgn;
+        padding: $pdd;
+        border: $bod;
+        background-color: $bgc;
+}
+
+
