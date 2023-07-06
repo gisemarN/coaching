@@ -1,5 +1,6 @@
-@mixin ordenar ($cod, $jcont, $flexw){
+@mixin ordenar ($cod, $flexd, $jcont, $flexw){
     display: $cod;
+    flex-direction: $flexd;
     justify-content: $jcont;
     flex-wrap: $flexw;
 };

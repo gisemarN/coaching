@@ -43,7 +43,7 @@
     }
     .icono{
         border: 3px solid darkslategray;
-        margin: 10px;
+        @include margen(30px, 30px, 0, 0,)
     }
 
 
@@ -54,5 +54,5 @@
     margin: nth($margen , 1);
    }
    .algunaclase{
-    background-color: map-get($map: $cabecera, $key: bg-ppl);
+    background-color: map-get($map: $cabecera, $key: bg-ppl)
    }
